@@ -97,7 +97,7 @@ if !exists('g:neocomplete#sources#omni#force_omni_input_patterns')
       let g:neocomplete#sources#omni#force_omni_input_patterns = {}
 endif
 let g:neocomplete#sources#omni#force_omni_input_patterns.php = '[^.\t]->\h\w*\|\h\w*::'
-" let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:]*\t]\%(\.\|->\)'
+let g:neocomplete#sources#omni#force_omni_input_patterns.c = '[^.[:digit:]*\t]\%(\.\|->\)'
 
 " Plugin key-mappings.
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)

@@ -59,3 +59,9 @@ apt-get install silversearcher-ag
 ## Change Font Size
 zoom in Ctrl_Shift_+
 zoom out Ctrl_-
+
+Android Studio shortcut
+⇧⌘A  Help -> Find Action
+
+npm config set proxy
+npm config set https-proxy
